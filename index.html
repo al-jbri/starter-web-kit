@@ -7,5 +7,25 @@
     <meta name="description" content="" />
     <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body class="flex flex-col gap-3 min-h-screen"></body>
+  <body class="flex flex-col h-svh md:flex-row bg-blue-100">
+    <main
+      class="flex-1 flex flex-col gap-5 p-3 overflow-x-clip wrap-break-word"
+    >
+      <div if="stats">dsdsddsd</div>
+      <div id="tasks">sdsdsdsdsdsd</div>
+    </main>
+    <nav
+      class="h-auto p-3 rounded-t-2xl mt-1 flex justify-between items-center bg-blue-200 md:w-auto md:flex-col md:justify-start md:gap-5 md:rounded-2xl md:order-first md:m-1"
+    >
+      <!--the svg logo is a placeholder from todo-aljbri.netlify.app-->
+      <img
+        src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231e1e1e'/><path d='M25 50 L40 65 L75 30' stroke='%233b82f6' stroke-width='12' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>"
+        alt="logo"
+        class="hidden md:block"
+      />
+      <a href="#stats" class="hover:text-blue-600 transition-all">Stats</a>
+      <a href="#tasks" class="hover:text-blue-600 transition-all">Tasks</a>
+      <a href="##" class="hover:text-blue-600 transition-all">Settings</a>
+    </nav>
+  </body>
 </html>
