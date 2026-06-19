@@ -8,34 +8,34 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body
-    class="flex flex-col h-dvh md:flex-row bg-stone-950 text-zinc-200 overflow-hidden"
+    class="flex flex-col h-dvh md:flex-row bg-stone-950 md:bg-stone-900 text-stone-100 overflow-hidden"
   >
     <main class="flex-1 flex flex-col gap-5 overflow-auto">
       <section id="stats" class="grid grid-cols-1 md:grid-cols-3 gap-2 p-3">
-        <div class="bg-stone-900 rounded-3xl p-3">
+        <div class="bg-stone-900 md:bg-stone-800 rounded-3xl p-3">
           <h3 class="text-xl font-bold">Use Hours:</h3>
           <p>5.3h</p>
         </div>
-        <div class="bg-stone-900 rounded-3xl p-3">
+        <div class="bg-stone-900 md:bg-stone-800 rounded-3xl p-3">
           <h3 class="text-xl font-bold">Complated Tasks:</h3>
           <p>20</p>
         </div>
-        <div class="bg-stone-900 rounded-3xl p-3">
+        <div class="bg-stone-900 md:bg-stone-800 rounded-3xl p-3">
           <h3 class="text-xl font-bold">Total Tasks:</h3>
           <p>75</p>
         </div>
       </section>
 
-      <section id="tasks" class="flex flex-col gap-2 border-t-2 border-stone-800 p-3">
-        <div class="flex items-center gap-2 bg-stone-900  p-3 rounded-3xl ">
+      <section id="tasks" class="flex flex-col gap-2 border-t-2 border-stone-900 md:border-stone-800 p-3">
+        <div class="flex items-center gap-2 bg-stone-900 md:bg-stone-800 p-3 rounded-3xl ">
           <input type="checkbox"></input>
           <span class="line-clamp-3">Task1</span>
         </div>
-        <div class="flex items-center gap-2 bg-stone-900  p-3 rounded-3xl ">
+        <div class="flex items-center gap-2 bg-stone-900 md:bg-stone-800  p-3 rounded-3xl ">
           <input type="checkbox"></input>
           <span class="line-clamp-3">Task2</span>
         </div>
-        <div class="flex items-center gap-2 bg-stone-900  p-3 rounded-3xl ">
+        <div class="flex items-center gap-2 bg-stone-900 md:bg-stone-800 p-3 rounded-3xl ">
           <input type="checkbox"></input>
           <span  class=" line-clamp-3"> very talllllllllllllllllllllllllllllllllllllllllllllllllllll Task Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem assumenda in porro, quaerat libero tempora unde odio et laborum quidem. In iusto qui aliquam voluptates fugit quisquam possimus corporis iste.</span>
         </div>
@@ -43,7 +43,7 @@
     </main>
 
     <nav
-      class="h-auto p-3 rounded-t-3xl mt-1 flex justify-between items-center bg-stone-900 md:w-auto md:flex-col md:justify-start md:gap-5 md:rounded-3xl md:order-first md:m-1"
+      class="h-auto p-3 rounded-t-3xl mt-1 flex justify-between items-center bg-stone-900 md:bg-stone-800 md:w-auto md:flex-col md:justify-start md:gap-5 md:rounded-3xl md:order-first md:m-1"
     >
       <span class="hidden md:block text-2xl font-bold">&#9632;</span>
       <a href="#stats" class="hover:text-blue-500 transition-all">Stats</a>
